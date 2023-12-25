@@ -1,1 +1,1 @@
-# Torrent-Downloader
+# Torrent-Downloader Internet Files Downloader
