@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="genre">
+        <item>All</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Film-Noir</item>
+        <item>Horror</item>
+        <item>Musical</item>
+        <item>Romance</item>
+        <item>Sport</item>
+        <item>War</item>
+        <item>Adventure</item>
+        <item>Biography</item>
+        <item>Crime</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+        <item>Western</item>
+    </array>
+    <array name="navigation">
+
+        <item>Advanced Search</item>
+        <item>My Movies</item>
+        <item>Rate It</item>
+        <item>Share App</item>
+    </array>
+    <array name="quality">
+        <item>All</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>3D</item>
+    </array>
+    <array name="rating">
+        <item>All</item>
+        <item>9+</item>
+        <item>8+</item>
+        <item>7+</item>
+        <item>6+</item>
+        <item>5+</item>
+        <item>4+</item>
+        <item>3+</item>
+        <item>2+</item>
+        <item>1+</item>
+    </array>
+    <array name="sort">
+        <item>Latest</item>
+        <item>Seeds</item>
+        <item>Peers</item>
+        <item>Year</item>
+        <item>Rating</item>
+        <item>Likes</item>
+        <item>Alphabetical</item>
+        <item>Downloads</item>
+    </array>
+</resources>

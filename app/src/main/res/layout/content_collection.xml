@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <androidx.recyclerview.widget.RecyclerView
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@color/colorAccent"
+        android:scrollbarStyle="insideOverlay"
+        android:id="@+id/recycler_view_w"
+        android:padding="0dp"
+        android:scrollbars="vertical"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="5dp"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:id="@+id/empty_wish_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:background="@mipmap/favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txt_favorites"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/grey700"
+            android:id="@+id/txt_favorites"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Favorites Found"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest package="torrent.magnet.movie.downloader.browser"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+
+
+
+    <application
+        android:name="torrent.magnet.movie.downloader.browser.AppController.App"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:roundIcon="@mipmap/ic_launcher_circle"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.Policy_Activity"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <uses-library
+        android:name="org.apache.http.legacy"
+        android:required="false"/>
+
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.Splash_Activity"
+        android:theme="@style/SplashTheme">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.VIEW"/>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.MainActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.DownloadActivity"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.DetailActivity"
+        android:label="@string/title_activity_the_details"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.Advanced_SearchActivity"
+        android:label="@string/title_activity_search_"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.Search_Activity"
+        android:label="@string/title_activity_search_"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.Movies_DetailActivity"
+        android:label="@string/title_activity_popcorn__detail"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.Collection_Activity"
+        android:label="@string/Collection"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <activity
+        android:name="torrent.magnet.movie.downloader.browser.Activities.ImageView_Activity"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+
+    </application>
+
+</manifest>

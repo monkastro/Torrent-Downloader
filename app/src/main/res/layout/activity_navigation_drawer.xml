@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="#FFFF"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/thelinear"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:id="@+id/navigationtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/app_name"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/drawer_list"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/version_no"
+        android:layout_below="@+id/thelinear"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="bottom|center_vertical|center_horizontal|center"
+        android:layout_gravity="bottom|center_vertical|center_horizontal|center"
+        android:id="@+id/version_no"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version: "
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

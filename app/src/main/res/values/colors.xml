@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ActionbarColor">#F60303</color>
+    <color name="RED">#ff0000</color>
+
+    <color name="colorAccent">#F44336</color>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#373030</color>
+
+    <color name="darkblack">#121314</color>
+
+
+
+    <color name="grey700">#b2b2b2</color>
+
+    <color name="lightblack">#323235</color>
+
+    <color name="mygrey">#FBFBFB</color>
+
+    <color name="white">#ffffff</color>
+</resources>

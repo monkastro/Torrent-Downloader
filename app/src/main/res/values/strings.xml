@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Torrent Movie Downloader</string>
+    <string name="Collection">Collection</string>
+    <string name="No_Internet">No Internet Connection</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="lib_name">Alerter</string>
+    <string name="link">Terms and Privacy Policy</string>
+    <string name="msg.alert_cleared">Alert Cleared</string>
+    <string name="msg.no_alert_showing">No Alert Showing</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+
+    <string name="title_activity_popcorn__detail">Popcorn_DetailActivity</string>
+    <string name="title_activity_search_">Movie Search</string>
+    <string name="title_activity_the_details">TheDetailsActivity</string>
+</resources>
